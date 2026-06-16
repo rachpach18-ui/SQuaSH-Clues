@@ -4,7 +4,8 @@ clue_number: "I"
 ---
 
 Complete the word search and\
-unscramble the unused letters:
+unscramble the unused letters.\
+Either option will do!
 
 | V | D | O | C | U | M | E | N | T | E |
 | P | A | R | E | V | I | E | W | C | F |
