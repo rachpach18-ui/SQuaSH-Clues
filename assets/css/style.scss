@@ -110,6 +110,12 @@ a:hover{ color:var(--pumpkin); }
   padding:2.6rem 2rem 2rem;
   margin:2.4rem 0;
 }
+/* a ticket holding a wide grid grows past the page edge: the whole ticket
+   runs off the right and the PAGE scrolls, rather than scrolling inside it */
+.clue:has(table){
+  width:max-content;
+  min-width:100%;
+}
 /* perforated / torn top edge */
 .clue::before{
   content:""; position:absolute; top:-8px; left:0; right:0; height:14px;
@@ -141,6 +147,33 @@ a:hover{ color:var(--pumpkin); }
   padding-top:5rem;
 }
 .clue__body p{ margin:0 0 1rem; }
+.clue__body table{
+  border-collapse:collapse;
+  margin:0 0 1.4rem;
+}
+.clue__body th,
+.clue__body td{
+  border:2px solid var(--ink);
+  height:2.4em;
+  padding:.35em .6em;
+  text-align:center; vertical-align:middle;
+  white-space:nowrap;
+  font-weight:700; text-transform:uppercase;
+}
+/* Clue 1 — compact square letter grid */
+.clue__body table.letters th,
+.clue__body table.letters td{
+  width:2.4em; padding:0;
+}
+/* Clue 6 — equal-width word grid with fixed-width columns (no % width, so
+   the ticket can size to it and the PAGE scrolls when it runs off-screen) */
+.clue__body table.words{
+  table-layout:fixed;
+}
+.clue__body table.words th,
+.clue__body table.words td{
+  width:11rem;
+}
 
 /* Reveal-answer wax button (uses <details>) */
 .reveal{ margin:1.4rem 0 0; }
