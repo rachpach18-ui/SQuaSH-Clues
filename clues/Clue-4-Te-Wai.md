@@ -1,7 +1,6 @@
 ---
 layout: clue
 clue_number: "IV"
-permalink: /clues/clue-4/
 ---
 
 Don’t mind the smell of paint on the way.\

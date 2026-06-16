@@ -1,7 +1,6 @@
 ---
 layout: clue
 clue_number: "VI"
-permalink: /clues/clue-6/
 ---
 
 | Crater | Castlecliff | Waiheke |

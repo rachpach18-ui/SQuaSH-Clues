@@ -1,7 +1,6 @@
 ---
 layout: clue
 clue_number: "II"
-permalink: /clues/clue-2/
 ---
 
 Standard and regular(tory).\

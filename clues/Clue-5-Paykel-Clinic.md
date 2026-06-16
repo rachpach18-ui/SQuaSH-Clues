@@ -1,7 +1,6 @@
 ---
 layout: clue
 clue_number: "V"
-permalink: /clues/clue-5/
 ---
 
 Crack the cypher.

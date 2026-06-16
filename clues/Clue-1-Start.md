@@ -1,7 +1,6 @@
 ---
 layout: clue
 clue_number: "I"
-permalink: /clues/clue-1/
 ---
 
 Complete the word search and\
