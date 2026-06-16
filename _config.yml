@@ -1,0 +1,24 @@
+# ---- SQuaSH site settings ----
+title: "SQuaSH"
+tagline: "Supreme · Quality · Scavenger · Hunt"
+description: "A field-seal of clues for the Supreme Quality Scavenger Hunt."
+lang: en
+
+# Navigation shown in the header
+nav:
+  - name: "The Hunt"
+    url: "/"
+  - name: "Clues"
+    url: "/clues/"
+  - name: "Rules"
+    url: "/rules/"
+
+# Build settings
+markdown: kramdown
+
+# NOTE on URLs:
+# If this repo is named <username>.github.io, leave baseurl blank (below).
+# If it's a PROJECT repo (any other name), uncomment and set baseurl to "/your-repo"
+# so the logo, CSS, and internal links resolve correctly.
+baseurl: ""
+# baseurl: "/your-repo"

@@ -1,0 +1,17 @@
+<header class="site-head">
+  <a href="{{ '/' | relative_url }}">
+    <img class="site-head__seal" src="{{ '/assets/img/logo.png' | relative_url }}"
+         alt="SQuaSH — Supreme Quality Scavenger Hunt seal">
+  </a>
+  <h1 class="wordmark"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+  <p class="tagline">{{ site.tagline }}</p>
+</header>
+
+<hr class="rule">
+
+<nav class="nav" aria-label="Primary">
+  {% for item in site.nav %}
+    <a href="{{ item.url | relative_url }}"
+       {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</nav>
