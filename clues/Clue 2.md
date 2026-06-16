@@ -1,9 +1,6 @@
 ---
 layout: clue
-title: "The First Marker"
 clue_number: "II"
-station: "Where the day begins"
-answer: "The kitchen — check inside the kettle."
 permalink: /clues/clue-2/
 ---
 

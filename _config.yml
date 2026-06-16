@@ -4,15 +4,6 @@ tagline: "Supreme · Quality · Scavenger · Hunt"
 description: "A field-seal of clues for the Supreme Quality Scavenger Hunt."
 lang: en
 
-# Navigation shown in the header
-nav:
-  - name: "The Hunt"
-    url: "/"
-  - name: "Clues"
-    url: "/clues/"
-  - name: "Rules"
-    url: "/rules/"
-
 # Build settings
 markdown: kramdown
 

@@ -2,23 +2,13 @@
 layout: default
 ---
 <article class="content">
-  {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-
   <section class="clue">
     {% if page.clue_number %}
       <div class="clue__stamp"><small>Clue No.</small><b>{{ page.clue_number }}</b></div>
     {% endif %}
-    {% if page.station %}<p class="clue__station">Station — {{ page.station }}</p>{% endif %}
 
     <div class="clue__body">
       {{ content }}
     </div>
-
-    {% if page.answer %}
-      <details class="reveal">
-        <summary>Reveal answer</summary>
-        <div class="reveal__answer">{{ page.answer }}</div>
-      </details>
-    {% endif %}
   </section>
 </article>

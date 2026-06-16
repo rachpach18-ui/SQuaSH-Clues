@@ -9,7 +9,7 @@ Every station you've reached so far. Tap one to read its ticket.
 {% assign clues = site.pages | where: "layout", "clue" | sort: "clue_number" %}
 <ul class="clue-list">
 {% for c in clues %}
-  <li><a href="{{ c.url | relative_url }}">Clue No. {{ c.clue_number }} — {{ c.title }}</a></li>
+  <li><a href="{{ c.url | relative_url }}">Clue No. {{ c.clue_number }}</a></li>
 {% endfor %}
 </ul>
 
