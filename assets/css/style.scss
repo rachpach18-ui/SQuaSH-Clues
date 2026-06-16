@@ -138,6 +138,7 @@ a:hover{ color:var(--pumpkin); }
 .clue__body{
   font-family:"Special Elite", "Courier New", monospace;
   font-size:1.12rem; line-height:1.95; color:var(--ink);
+  padding-top:5rem;
 }
 .clue__body p{ margin:0 0 1rem; }
 
@@ -167,5 +168,6 @@ a:hover{ color:var(--pumpkin); }
   .clue{ padding:2.2rem 1.2rem 1.6rem; }
   .clue__stamp{ width:78px; height:78px; right:10px; }
   .clue__stamp b{ font-size:1.5rem; }
+  .clue__body{ padding-top:4rem; }
   .tagline{ letter-spacing:.22em; }
 }
