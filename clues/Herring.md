@@ -2,6 +2,8 @@
 layout: clue
 ---
 
-Eagle eyes! However here is not the answer to your clue.
+Eagle eyes! 
+
+However the answer to your clue is not here.
 
 Happy Hunting!
