@@ -1,3 +1,11 @@
+---
+layout: clue
+title: "The First Marker"
+clue_number: "I"
+station: "Where the day begins"
+answer: "The kitchen — check inside the kettle."
+permalink: /clues/clue-6/
+---
 
 Crater		Castlecliff	Waiheke		Norwest		Whio
 Takahe		Rabbit		Mapouriki	Pohutukawa	Hot water
