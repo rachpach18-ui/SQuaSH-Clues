@@ -20,5 +20,5 @@ markdown: kramdown
 # If this repo is named <username>.github.io, leave baseurl blank (below).
 # If it's a PROJECT repo (any other name), uncomment and set baseurl to "/your-repo"
 # so the logo, CSS, and internal links resolve correctly.
-baseurl: ""
+baseurl: "/SQuaSH-Clues"
 # baseurl: "/your-repo"
